@@ -1,0 +1,8 @@
+create table pages_header_code (
+	id int primary key auto_increment,
+	slug varchar(2000),
+	page_title varchar(2000),
+	meta_info text,
+	meta_enabled int DEFAULT 1,
+	enabled int DEFAULT 1
+);

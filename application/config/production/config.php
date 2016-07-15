@@ -1,8 +1,8 @@
 <?php
-	$config['website_url'] = 'http://www.crossoverdemo.dev';
+	$config['website_url'] = 'http://www.website.com';
 
 	$config['connection_information'] = array(
-		'dsn'	=> 'mysql:host=localhost;dbname=crossover',
+		'dsn'	=> 'mysql:host=localhost;dbname=database',
 		'username' => 'db_username',
 		'password' => 'db_password',
 		'dbdriver' => 'pdo',
